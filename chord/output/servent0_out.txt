@@ -1,0 +1,84 @@
+15:05:55 - Starting servent [28|localhost|1100]
+15:05:55 - Pausing for 10000 ms
+15:05:55 - First node in Chord system.
+15:06:01 - Got message [48|1200|0||NEW_NODE|1100|28]
+15:06:01 - Node 28 has token, enters critical section and adds new node 48 to the system.
+15:06:01 - Got message [4|1300|0||NEW_NODE|1100|28]
+15:06:01 - Sending message [28|1100|0||WELCOME|1200|48]
+15:06:02 - Sending message [28|1100|1||UPDATE_FINISH|1200|48]
+15:06:03 - Got message [48|1200|2||UPDATE_FINISH|1100|28]
+15:06:03 - Got message [48|1200|1||UPDATE|1100|28]
+15:06:04 - Sending message [48|1200|2|1100|UPDATE|1200|48]
+15:06:04 - Sending message [28|1100|3||UPDATE_FINISH|1200|48]
+15:06:05 - Got message [48|1200|3||UPDATE_FINISH|1100|28]
+15:06:05 - Friend added: 48
+15:06:05 - Pausing for 10000 ms
+15:06:06 - Sending message [28|1100|5||ADD_FRIEND|1200|48]
+15:06:06 - Sending message [28|1100|4||UPDATE_FINISH|1200|48]
+15:06:07 - Sending message [28|1100|6||ADD_FILE|1100|28]
+15:06:07 - Got message [28|1100|6||ADD_FILE|1100|28]
+15:06:07 - File saved locally: root\servent-28\A.txt
+15:06:07 - File: root\servent-28\A.txt  Public: true stored on node: 28
+15:06:07 - Sending file to backup
+15:06:07 - Update for new node 48 is finished.
+15:06:07 - Node 28 has token, enters critical section and adds new node 4 to the system.
+15:06:07 - Got message [48|1200|4||UPDATE_FINISH|1100|28]
+15:06:08 - Sending message [28|1100|9||WELCOME|1300|4]
+15:06:08 - Sending message [28|1100|8||BACKUP_FILE|1200|48]
+15:06:08 - Sending message [28|1100|10||UPDATE_FINISH|1300|4]
+15:06:08 - Got message [24|1400|5||NEW_NODE|1100|28]
+15:06:08 - Got message [4|1300|2||UPDATE_FINISH|1100|28]
+15:06:08 - Sending message [28|1100|7||BACKUP_FILE|1200|48]
+15:06:09 - Got message [0|1600|6||NEW_NODE|1100|28]
+15:06:09 - Got message [4|1300|1||UPDATE|1100|28]
+15:06:10 - Sending message [28|1100|11||UPDATE_FINISH|1300|4]
+15:06:10 - Sending message [4|1300|12|1100|UPDATE|1200|48]
+15:06:11 - Got message [4|1300|3||UPDATE_FINISH|1100|28]
+15:06:12 - Sending message [28|1100|13||UPDATE_FINISH|1300|4]
+15:06:13 - Got message [4|1300|4||UPDATE_FINISH|1100|28]
+15:06:14 - Sending message [28|1100|14||UPDATE_FINISH|1300|4]
+15:06:15 - Update for new node 4 is finished.
+15:06:15 - Node 28 has token, enters critical section and adds new node 24 to the system.
+15:06:15 - Got message [4|1300|5||UPDATE_FINISH|1100|28]
+15:06:15 - Pausing for 50000 ms
+15:06:16 - Sending message [28|1100|16||WELCOME|1400|24]
+15:06:16 - Sending message [28|1100|17||UPDATE_FINISH|1400|24]
+15:06:16 - Sending message [28|1100|18||VIEW_FILES|1100|28]
+15:06:16 - Got message [28|1100|18||VIEW_FILES|1100|28]
+15:06:16 - Sending message [0|1600|15||NEW_NODE|1200|48]
+15:06:17 - Got message [24|1400|2||UPDATE_FINISH|1100|28]
+15:06:17 - Got message [48|1200|10||BACKUP_FILE|1100|28]
+15:06:17 - File saved locally: root\servent-28\BACK_UP_B.txt
+15:06:17 - File: root\servent-28\BACK_UP_B.txt  Public: false stored on node: 28
+15:06:17 - Sending message [28|1100|19||VIEW_FILES|1200|48]
+15:06:17 - Got message [24|1400|1||UPDATE|1100|28]
+15:06:18 - Sending message [28|1100|20||UPDATE_FINISH|1400|24]
+15:06:18 - Got message [4|1300|6||REQUEST_TOKEN|1100|28]
+15:06:18 - Sending message [24|1400|21|1100|UPDATE|1200|48]
+15:06:19 - Got message [48|1200|16||FILES|1100|28]
+15:06:19 - Files from port: 1200
+15:06:19 - File: BACK_UP_A.txt, Public: true, Path: root\servent-48\BACK_UP_A.txt
+15:06:19 - File: B.txt, Public: false, Path: root\servent-48\B.txt
+15:06:19 - File: C.txt, Public: true, Path: root\servent-48\C.txt
+15:06:19 - Got message [24|1400|3||UPDATE_FINISH|1100|28]
+15:06:19 - Got message [48|1200|15||BACKUP_FILE|1100|28]
+15:06:19 - File saved locally: root\servent-28\BACK_UP_C.txt
+15:06:19 - File: root\servent-28\BACK_UP_C.txt  Public: true stored on node: 28
+15:06:19 - Sending message [28|1100|22||TOKEN|1300|4]
+15:06:20 - Sending message [28|1100|23||UPDATE_FINISH|1400|24]
+15:06:21 - Got message [24|1400|4||UPDATE_FINISH|1100|28]
+15:06:22 - Sending message [28|1100|24||UPDATE_FINISH|1400|24]
+15:06:23 - Got message [24|1400|5||UPDATE_FINISH|1100|28]
+15:06:23 - Update for new node 24 is finished.
+15:06:23 - Got message [0|1600|6|1300,1400|UPDATE|1100|28]
+15:06:25 - Sending message [0|1600|25|1300,1400,1100|UPDATE|1200|48]
+15:07:05 - Pausing for 10000 ms
+15:07:06 - Sending message [28|1100|26||VIEW_FILES|1100|28]
+15:07:06 - Got message [28|1100|26||VIEW_FILES|1100|28]
+15:07:07 - Sending message [28|1100|27||VIEW_FILES|1200|48]
+15:07:08 - Got message [24|1400|7||REMOVE_FILE|1100|28]
+15:07:08 - File removed from node: 28 (File: root\servent-28\A.txt)
+15:07:08 - File root\servent-28\A.txt removed locally
+15:07:10 - Got message [0|1600|7||FILES|1100|28]
+15:07:10 - Files from port: 1600
+15:07:15 - Stopping...

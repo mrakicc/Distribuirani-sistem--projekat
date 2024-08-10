@@ -1,0 +1,4 @@
+pause 65000
+remove_file A.txt
+pause 15000
+stop

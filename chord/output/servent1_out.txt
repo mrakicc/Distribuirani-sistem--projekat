@@ -1,0 +1,54 @@
+15:06:00 - Starting servent [48|localhost|1200]
+15:06:00 - Pausing for 15000 ms
+15:06:01 - Sending message [48|1200|0||NEW_NODE|1100|28]
+15:06:01 - Got message [28|1100|0||WELCOME|1200|48]
+15:06:02 - Got message [28|1100|1||UPDATE_FINISH|1200|48]
+15:06:03 - Sending message [48|1200|2||UPDATE_FINISH|1100|28]
+15:06:03 - Sending message [48|1200|1||UPDATE|1100|28]
+15:06:04 - Got message [48|1200|2|1100|UPDATE|1200|48]
+15:06:04 - Got message [28|1100|3||UPDATE_FINISH|1200|48]
+15:06:05 - Sending message [48|1200|3||UPDATE_FINISH|1100|28]
+15:06:06 - Got message [28|1100|5||ADD_FRIEND|1200|48]
+15:06:06 - Friend added: 28
+15:06:06 - Got message [28|1100|4||UPDATE_FINISH|1200|48]
+15:06:07 - Sending message [48|1200|4||UPDATE_FINISH|1100|28]
+15:06:08 - Got message [28|1100|8||BACKUP_FILE|1200|48]
+15:06:08 - File saved locally: root\servent-48\BACK_UP_A.txt
+15:06:08 - File: root\servent-48\BACK_UP_A.txt  Public: true stored on node: 48
+15:06:08 - Got message [24|1400|0||NEW_NODE|1200|48]
+15:06:08 - Got message [0|1600|0||NEW_NODE|1200|48]
+15:06:08 - Sending message [24|1400|5||NEW_NODE|1100|28]
+15:06:09 - Got message [28|1100|7||BACKUP_FILE|1200|48]
+15:06:09 - Sending message [0|1600|6||NEW_NODE|1100|28]
+15:06:10 - Got message [4|1300|12|1100|UPDATE|1200|48]
+15:06:11 - Sending message [4|1300|7|1100,1200|UPDATE|1300|4]
+15:06:15 - Pausing for 2000 ms
+15:06:16 - Sending message [48|1200|8||ADD_FILE|1200|48]
+15:06:16 - Got message [48|1200|8||ADD_FILE|1200|48]
+15:06:16 - File saved locally: root\servent-48\B.txt
+15:06:16 - File: root\servent-48\B.txt  Public: false stored on node: 48
+15:06:16 - Sending file to backup
+15:06:16 - Got message [0|1600|15||NEW_NODE|1200|48]
+15:06:17 - Sending message [48|1200|10||BACKUP_FILE|1100|28]
+15:06:17 - Got message [28|1100|19||VIEW_FILES|1200|48]
+15:06:17 - Sending message [0|1600|11||NEW_NODE|1300|4]
+15:06:17 - Pausing for 68000 ms
+15:06:17 - Sending message [48|1200|9||BACKUP_FILE|1300|4]
+15:06:18 - Got message [4|1300|7||REQUEST_TOKEN|1200|48]
+15:06:18 - Sending message [48|1200|13||ADD_FILE|1200|48]
+15:06:18 - Got message [48|1200|13||ADD_FILE|1200|48]
+15:06:18 - File saved locally: root\servent-48\C.txt
+15:06:18 - File: root\servent-48\C.txt  Public: true stored on node: 48
+15:06:18 - Sending file to backup
+15:06:18 - Sending message [48|1200|12||FILES|1200|48]
+15:06:18 - Got message [48|1200|12||FILES|1200|48]
+15:06:18 - Got message [24|1400|21|1100|UPDATE|1200|48]
+15:06:19 - Sending message [48|1200|16||FILES|1100|28]
+15:06:19 - Sending message [48|1200|14||BACKUP_FILE|1300|4]
+15:06:19 - Sending message [48|1200|15||BACKUP_FILE|1100|28]
+15:06:19 - Sending message [24|1400|17|1100,1200|UPDATE|1300|4]
+15:06:25 - Got message [0|1600|25|1300,1400,1100|UPDATE|1200|48]
+15:06:26 - Sending message [0|1600|18|1300,1400,1100,1200|UPDATE|1600|0]
+15:07:07 - Got message [28|1100|27||VIEW_FILES|1200|48]
+15:07:07 - Sending message [48|1200|19||VIEW_FILES|1600|0]
+15:07:25 - Stopping...

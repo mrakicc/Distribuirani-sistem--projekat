@@ -1,0 +1,6 @@
+pause 15000
+add_file B.txt private "Say hello to my little friend!"
+pause 2000
+add_file C.txt public "Good morning, Belgrade!"
+pause 68000
+stop

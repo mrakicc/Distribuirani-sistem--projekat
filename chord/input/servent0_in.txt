@@ -1,0 +1,9 @@
+pause 10000
+add_friend localhost:1200
+add_file A.txt public "Sadrzaj datoteke A.txt"
+pause 10000
+view_files 1200
+pause 50000
+view_files 1600
+pause 10000
+stop
