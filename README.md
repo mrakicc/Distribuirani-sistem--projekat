@@ -1,1 +1,1 @@
-# Distribuirani-sistem--projekat
+# Distributed-system--project
